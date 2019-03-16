@@ -35,7 +35,6 @@ define( 'TAXREPORT_FOR_WOOCOMMERCE_VERSION', '1.0.0' );
 
 $version = TAXREPORT_FOR_WOOCOMMERCE_VERSION;
 $plugin_name = 'taxreport_for_woocommerce';
-$context = new TaxReport($plugin_name, $version);
 
 function activate() {
 }
