@@ -76,7 +76,8 @@ class TaxReport {
 
         $orders = wc_get_orders( array(
           'customer_id' => get_current_user_id(),
-          'date_paid' => "$year-01-01...$year-12-31"
+          'date_paid' => "$year-01-01...$year-12-31",
+          'limit' => -1,
         ) );
 
         foreach ($orders as $order) {
