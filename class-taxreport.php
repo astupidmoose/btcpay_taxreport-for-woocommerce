@@ -33,9 +33,9 @@ class TaxReport {
   public function customer_menu_item($items) {
     return
     array_merge(
-      array_slice( $items, 0, count( $items ) - 4 ),
+      array_slice( $items, 0, count( $items ) ),
       array( 'taxreport' => 'Tax Report' ),
-      array_slice( $items, count( $items ) - 4 )
+      array_slice( $items, count( $items ) )
     );
   }
 
