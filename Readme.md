@@ -28,3 +28,9 @@ If you wish to edit what the customer sees, or perhaps add your own HTML intro t
 
 If you would like add or delete fields to the report, find the `$columns =[` line in class-taxreport.php. Here you can copy/paste any new values you wish to add. 
 
+
+## If you found this plugin useful, please consider helping pay for its development:
+
+This plugin was fully funded by www.Coincards.com and open sourced. 
+
+If you like this plugin or find it useful, we would appreciate your support in pitching in for it's development: https://btcpay.stufftech.io/apps/3dXsE82sCftW24avWm4mcLvNiZ3g/crowdfund
