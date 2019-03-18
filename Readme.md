@@ -2,19 +2,18 @@
 
 This plugin allows your clients to download transaction history. It's main purpose is to allow the client to be able to get the following fields for reporting purposes:
 
-- Order Number
-- Order Status
-- Order Date
-- Email (Billing)
-- Order Total
-- Order Total Tax Amount (Sales Tax)
-- BTC Address
-- BTC Amount
-- BTC Rate
+Order Number
+Order Status
+Order Date
+Email (Billing)
+Order Total
+Order Total Tax Amount (Sales Tax)
+BTC Address
+BTC Amount
+BTC Rate
+This plugin only shows orders which have had the "Date_Paid" fieldset, to make sure cancelled orders and orders which are not paid are not included.
 
-This plugin only shows orders which have had the "Date_Paid" field set, to make sure cancelled orders and orders which are not paid are not included. 
-
-This plugin only shows the BTC amounts/equivalents. This will not show Altcoin payments, but will show their BTC equivelants. 
+This plugin only shows the BTC amounts/equivalents. This will not show Altcoin payments but will show their BTC equivalents.
 
 ### Editing Customer Area:
 
