@@ -15,14 +15,16 @@ This plugin only shows orders which have had the "Date_Paid" fieldset, to make s
 
 This plugin only shows the BTC amounts/equivalents. This will not show Altcoin payments but will show their BTC equivalents.
 
+### Installation Notes:
+
+Upon installation, you will see a "Tax Reports" tab in your "My Account" area, however it may initially give a 404 error. To fix this, goto your "Settings > Permalinks" in the Wordpress backend and click "Save". This should fix the issue. 
+
 ### Editing Customer Area:
 
 If you wish to edit what the customer sees, or perhaps add your own HTML intro to the reporting page, you can add HTML above the following lines:
 
     <form action="" method="post">
     <select class="taxreport-select" name="taxreport_year" id="taxreport_year">';
-
-
 
 ### Editing Fields:
 
