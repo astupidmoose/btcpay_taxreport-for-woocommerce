@@ -1,4 +1,4 @@
-# Tax Reports / Transaction History for Woocommerce Clients
+# Tax Reports for Woocommerce Clients on BTCPay Servers
 
 This plugin allows your clients to download transaction history. It's main purpose is to allow the client to be able to get the following fields for reporting purposes:
 
